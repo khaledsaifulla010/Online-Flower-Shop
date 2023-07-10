@@ -1,0 +1,76 @@
+/* common shared styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles start */
+header {
+    background: #E554731A;
+    height: 100vh;
+
+}
+
+.banner-tittle {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.common-button {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    border: none;
+}
+
+.banner-image {
+    width: 400px;
+}
+
+.banner-container {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Main Styles start */
+.feature{
+    height: 100vh;
+}
+.section-tittle {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 60px;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
