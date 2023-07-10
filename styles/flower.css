@@ -2,7 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-    max-width: 2000px;
 }
 
 body {
@@ -166,7 +165,7 @@ header {
     text-align: center;
     font-size: 30px;
     font-weight: 800;
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 .instagram-description {
@@ -190,22 +189,21 @@ header {
 
 /* Get The Latest Deals */
 .latest-deals {
-    height: 100vh;
-    background-color: gray;
-    background-size: cover;
+    height:100vh;
+    background-image: url('../background-image/Rectangle\ 9.png');
     background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
-    align-items: center;
     margin: 60px;
-    padding: 100px;
-
 }
 
 .latest-deal-tittle {
     color: #272727;
     font-size: 30px;
     font-weight: 800;
-    padding-top: 50px;
+    padding-top: 250px;
+    
+    text-align: center;
 }
 
 .latest-deal-description {
@@ -260,7 +258,8 @@ header {
     font-weight: 400;
     padding-top: 10px;
 }
-.copy{
+
+.copy {
     color: rgba(255, 255, 255, 0.40);
     font-size: 10px;
     padding-top: 5px;
