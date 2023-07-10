@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* Header styles start */
 header {
     background: #E554731A;
@@ -13,16 +18,14 @@ header {
 
 .banner-tittle {
     color: #272727;
-    font-family: Lato;
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 800;
 
 }
 
 .banner-description {
     color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
     margin-top: 20px;
 }
@@ -32,8 +35,7 @@ header {
     background: #E55473;
     padding: 20px 43px;
     color: #FFF;
-    font-family: Lato;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
     margin-top: 20px;
     border: none;
@@ -54,13 +56,14 @@ header {
 }
 
 /* Main Styles start */
-.feature{
+.feature {
     height: 100vh;
+    background-position: center;
 }
+
 .section-tittle {
     color: #272727;
     text-align: center;
-    font-family: Lato;
     font-size: 30px;
     font-weight: 800;
     margin-top: 60px;
@@ -69,8 +72,51 @@ header {
 .section-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: Lato;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 400;
     margin-top: 10px;
+}
+
+.feature-image {
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.feature-image-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 300px;
+    height: 350px;
+
+}
+
+.feature-image-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 300px;
+    height: 350px;
+
+}
+
+.feature-image-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 300px;
+    height: 350px;
+}
+
+.image-tittle {
+    text-align: center;
+    margin: 5px;
+    text-decoration: underline;
+}
+
+/* Hot-deal styles start */
+.hot-deal {
+    height: 100vh;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
 }
