@@ -178,14 +178,14 @@ header {
 }
 
 .image {
-    width: 250px;
+    width: 230px;
 }
 
 .all-flower-image {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 50px;
+    padding: 70px;
 }
 
 /* Get The Latest Deals */
