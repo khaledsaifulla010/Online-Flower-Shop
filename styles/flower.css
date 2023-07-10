@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    max-width: 2000px;
 }
 
 body {
@@ -128,7 +129,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
 }
 
 .sign-up-button {
@@ -155,34 +155,113 @@ header {
     font-weight: 400;
     margin-top: 10px;
 }
-.hot-deal-image{
+
+.hot-deal-image {
     width: 200px;
 }
+
 /* Instagram section style */
-.main-last-section{
-    height: 200vh;
-}
-.instagram-tittle{
+.instagram-tittle {
     color: #272727;
     text-align: center;
     font-size: 30px;
     font-weight: 800;
     padding-top: 50px;
 }
-.instagram-description{
+
+.instagram-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 13px;
     font-weight: 400;
     margin-top: 10px;
 }
-.image{
+
+.image {
     width: 290px;
 }
-.all-flower-image{
+
+.all-flower-image {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 50px;
 }
+
 /* Get The Latest Deals */
+.latest-deals {
+    height: 100vh;
+    background-color: gray;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+    margin: 60px;
+    padding: 100px;
+
+}
+
+.latest-deal-tittle {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 50px;
+}
+
+.latest-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.email {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 10px 80px;
+    border: none;
+
+}
+
+.subscribe {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 10px 15px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+    border: none;
+}
+
+/* footer section styles */
+.flower-shop {
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.flower {
+    color: #E55473;
+}
+
+.flower-shop-tittle {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+.flower-shop-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.copy{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 10px;
+    padding-top: 5px;
+}
